@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: #455152;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        navbar{
+            top: 0;
+            display: flex;
+            padding: 0.5rem;
+            gap: 2rem;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #152324;
+            color: white;
+        }
+
+        ul{
+            list-style: none;
+            justify-content: space-between;
+        }
+        
+        li{
+            display: inline;
+            padding: 2rem;
+        }
+
+        .profImage{
+            width: 5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--<h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus facilis at quod architecto commodi sed, dolores illo nemo dignissimos ad.</p>
+    -->
+
+    <navbar>
+        <div class="profImage">
+            <img src="./ShoppingCart.jpeg" alt="ProfileImageHere" width="50"> 
+            <p> ShopCol.com </p>
+        </div>
+        
+        <div class="searchBar">
+            <form>
+                <input type="search" name="" id="" placeholder="Enter something to search" required>
+            </form>
+        </div>
+        
+        <ul>
+            <li>Home</li>
+            <li>Cart</li>
+            <li>Sign In</li>
+        </ul>
+    </navbar>
+
+    <div class="itemList">
+        <div class="item">
+            <img src="./ironListing.jpeg" alt="item1">
+            <div class="text">
+                <p>
+                    <h2>Item1 Name</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum facilis sequi, exercitationem a laboriosam porro quaerat facere. Voluptate nam facere sit, reprehenderit asperiores unde blanditiis, libero assumenda corporis cumque quibusdam!
+                    <h1>Rs. 24,999</h1>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./LaptopListing.jpeg" alt="item2">
+            <div class="text">
+                <p>
+                    <h2>Item2 Name</h2>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero eum dignissimos culpa numquam voluptatibus nobis, sunt, rem est harum tempora veniam dolore? Repellat vitae esse qui nemo, deleniti ut vel?
+                    <h1>Rs. 99,999</h1>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- <table class="itemList">
+        <tr class="item">
+            <td>
+            <img src="./ironListing.jpeg" alt="">
+            </td>
+            <td><p>Item1 name</p></td>
+        </tr>
+        <tr class="item">
+            <td><img src="./LaptopListing.jpeg" alt=""></td>
+            <td><p>Item2 name</p></td>
+        </tr>
+    </table> -->
+</body>
+</html>

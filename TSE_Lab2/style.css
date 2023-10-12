@@ -1,0 +1,33 @@
+.searchBar input{
+    width: 20rem;
+    height: 2rem;
+    padding: 1rem;
+}
+
+.itemList{
+    display: flex;
+    padding: 5rem 1rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.itemList .item{
+    display: grid;
+    grid-auto-flow: column;
+    max-width: 50rem;
+    border: solid 2px #00d0ff;
+}
+
+.item img{
+    border: solid 2px #00d0ff;
+    height: 20rem;
+}
+
+.item .text{
+    border: solid 2px #00d0ff;
+    width: fit-content;
+    padding: 1rem;
+    line-height: 2;
+}
+
