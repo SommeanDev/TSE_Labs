@@ -1,0 +1,14 @@
+.feedback-form{
+    /*background-color: brown;*/
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.feedback-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
